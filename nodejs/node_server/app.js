@@ -13,6 +13,7 @@ picDirs.dirStat = [];
 var app = express();
 var fs = require('fs');
 //var RootDirString = '/home/knightingal/DevTools/.mix/1002/';
+
 var RootDirString = 'D:\\testdir\\testsubdir\\thr\\from linux\\';
 picDirs.RootDirString = RootDirString;
 // view engine setup
