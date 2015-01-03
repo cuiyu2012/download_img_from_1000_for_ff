@@ -38,12 +38,6 @@ var init = function () {
         var stat = fs.statSync(RootDirString + dirName);
         if (stat.isDirectory())
         {
-            //var fileBuff = fs.readFileSync(RootDirString + dirName + "/" + dirName);
-            //var headerLen = parseInt(fileBuff.slice(0, 8));
-            //var header = eval("(" + fileBuff.slice(8, 8 + headerLen) + ")");
-            //console.log("headerLen = " + headerLen);
-            //console.log("header = " + JSON.stringify(header[3]));
-            
             var picsOri = fs.readdirSync(RootDirString + dirs[i]);
             var patt = new RegExp('\.jpg$');
 
